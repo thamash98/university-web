@@ -45,11 +45,43 @@ nav img{
   content: '';
   width: 0%;
   height: 2px;
-  background-color: rgb(217, 27, 27);
+  background-color: #f44336;
   display: block;
   margin: auto;
   transition: 0.5s;
 }
 .nav-links ul li:hover::after{
   width: 100%;
+}
+.text-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size: 62px;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+.info-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 30px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.info-btn:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.5s;
 }
