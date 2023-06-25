@@ -124,7 +124,7 @@ nav .fa{
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 h1{
   font-size: 36px;
@@ -169,3 +169,52 @@ h3{
     flex-direction: column;
   }
 }
+
+/*-----campus-------*/
+.campus{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+.campus-img{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.campus-img img{
+  width: 100%;
+  display: block;
+}
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover{
+  background: rgba(226,0,0,0.6);
+}
+.layer h3{
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
