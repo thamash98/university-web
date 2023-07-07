@@ -354,6 +354,7 @@ footer h4{
 .about-info img{
   width: 100%;
   border-radius: 5px;
+  linear-gradient(to right, #dde8e9, #b8c1c0, #959b98, #737674, #535452);
 }
 .about-info h1{
   padding-top: 0;
